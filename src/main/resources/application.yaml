@@ -15,3 +15,6 @@ spring:
             connectTimeout: 1000
             readTimeout: 10000
             loggerLevel: HEADERS  # ??? ??? ?? FeignCustomLogger -> Logger.Level logLevel ??? ??
+
+override:
+  value: 'from local'
