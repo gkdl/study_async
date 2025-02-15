@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - sources: /
+  - source: /
     destination: /home/ubuntu/github_action
-    overwrite: yes
+    overwrite: true
 
 permissions:
   - object: /
